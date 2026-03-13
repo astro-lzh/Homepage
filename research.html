@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Research - Zhihui Li</title>
+	<link rel="stylesheet" href="assets/css/site.css" />
+	<style>
+		.research-content a,
+		.research-content a:link,
+		.research-content a:visited,
+		.research-content a:hover,
+		.research-content a:focus,
+		.research-content a:active,
+		.research-content a * {
+			text-decoration: none !important;
+			text-decoration-line: none !important;
+			-webkit-text-decoration: none !important;
+			border-bottom: 0 !important;
+			box-shadow: none !important;
+			background-image: none !important;
+		}
+	</style>
+</head>
+<body>
+	<header class="site-header">
+		<div class="container nav-wrap">
+			<a class="site-name" href="index.html">Zhihui Li</a>
+			<nav class="site-nav">
+				<a href="index.html">About</a>
+				<a class="active" href="research.html">Research</a>
+				<a href="publications.html">Publications</a>
+				<a href="teaching.html">Teaching</a>
+				<a href="cv.html">CV</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="container publications-main">
+		<section class="publications-hero">
+			<h1>Research</h1>
+		</section>
+
+		<section>
+			<h2>Overview</h2>
+			<p>
+				My research focuses on understanding how galaxies evolve through the complex flows of gas that surround
+				them. Galaxies do not evolve in isolation; they are embedded in vast reservoirs of diffuse gas known as
+				the <strong>circumgalactic medium (CGM)</strong>. This multiphase environment acts as the interface between
+				galaxies and the larger cosmic web, regulating how gas accretes onto galaxies, how feedback-driven winds
+				carry material back into their halos, and ultimately how galaxies grow over cosmic time. A central goal
+				of my work is to uncover the physical processes that shape these gas flows and determine how they influence
+				star formation, chemical enrichment, and the long-term evolution of galaxies.
+			</p>
+			<p>
+				To address these questions, I develop physically motivated models and radiative-transfer (RT) frameworks
+				that connect theoretical descriptions of multiphase gas to detailed spectroscopic observations. Much of my
+				research focuses on interpreting <strong>Lyα and ultraviolet metal emission and absorption lines</strong>,
+				which encode rich information about the structure, kinematics, and physical conditions of galactic outflows
+				and the CGM. I combine analytical modeling, Monte Carlo RT simulations, and comparisons with spatially
+				resolved observations from instruments such as <strong>HST/COS</strong> and <strong>KCWI</strong> to extract
+				physical constraints from these complex spectral signatures.
+			</p>
+			<p>
+				A central component of my recent work is the development of <strong>PEACOCK</strong>, a three-dimensional
+				Monte Carlo RT framework that jointly models Lyα and multiple UV metal lines within a unified multiphase
+				outflow model. Applied to deep UV spectra of nearby galaxies, this framework reveals how ion column
+				densities, bulk outflows, and turbulent motions shape observed line profiles and the energetics of galactic
+				winds. Complementary work using the <strong>ALPACA</strong> framework and related RT models has further
+				explored how metal absorption lines, Mg II emission, and Lyα halos trace the structure and dynamics of
+				clumpy multiphase gas around galaxies.
+			</p>
+			<p>
+				More broadly, my research seeks to build a physically grounded picture of how
+				<strong>multiphase gas flows regulate galaxy evolution</strong>. By linking RT diagnostics, hydrodynamic
+				simulations, and spectroscopic observations, I aim to reveal how inflows, outflows, turbulence, and cloud
+				survival in the CGM govern the life cycle of baryons in galaxies, from nearby star-forming systems to the
+				early universe.
+			</p>
+		</section>
+
+		<section>
+			<h2>Highlights</h2>
+		</section>
+
+		<section class="research-content">
+			<ul class="item-list">
+				<li>
+					<strong>PEACOCK: Multi-Ion Radiative Transfer of Galactic Winds</strong><br />
+					In <a href="https://arxiv.org/abs/2603.06546">Li et al. (2026a)</a> and
+					<a href="https://arxiv.org/abs/2603.06568">Li et al. (2026b)</a>, I developed PEACOCK, a 3D Monte Carlo RT framework that
+					jointly models Lyα and multiple UV metal lines in a unified multiphase outflow model. Applied to
+					deep HST/COS spectra of 50 nearby galaxies, PEACOCK shows how ion column densities, bulk outflows,
+					and turbulent motions shape observed line profiles and the energetics of galactic winds.
+					<br />
+					<img src="images/Schematic_CLASSY_new.pdf.png" alt="PEACOCK schematic" class="research-figure" style="width:500px;max-width:500px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Schematic of the multiphase, clumpy radiative-transfer model PEACOCK, in which Lyα and UV metal-line photons emitted by a central star-forming galaxy propagate through a halo populated by outflowing, turbulent gas clumps in the circumgalactic medium (<a href="https://arxiv.org/abs/2603.06546">Li et al. 2026a</a>).
+					</p>
+				</li>
+				<li>
+					<strong>Mg II and Lyα Radiative Transfer in LyC-Leaking Galaxies</strong><br />
+					In <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...991...49L/abstract">Li et al. (2025)</a>, I performed systematic RT modeling of Mg II emission in 33 low-redshift
+					Lyman-continuum-leaking galaxies using a multiphase, clumpy CGM model. The analysis identified two key
+					indirect tracers of strong LyC escape: high Mg II clump outflow velocities and low Mg II column
+					densities.
+					<br />
+					<img src="images/vmax_NmgII_updated.pdf.png" alt="Mg II velocity-column relation" class="research-figure" style="width:500px;max-width:500px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Relation between clump outflow velocity and Mg II column density from Mg II RT modeling of LyC-leaking galaxies, showing that strong LyC escape occurs preferentially in systems with high Mg II outflow velocities and low Mg II column densities (<a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...991...49L/abstract">Li et al. 2025</a>).
+					</p>
+				</li>
+				<li>
+					<strong>Metal-Line Diagnostics of Multiphase Outflows</strong><br />
+					In <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..444L/abstract">Li et al. (2024)</a>, I developed ALPACA, a semi-analytic RT framework for
+					modeling UV metal absorption lines arising from clumpy, turbulent galactic environments. The model
+					links observed low-ionization absorption profiles to the physical structure and kinematics of
+					multiphase outflows, enabling constraints on cloud covering fractions, velocity fields, and turbulent
+					motions in the CGM.
+					<br />
+					<img src="images/schematic_new_ALPACA.pdf.png" alt="ALPACA schematic" class="research-figure" style="width:420px;max-width:420px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Schematic of ALPACA, a non-Sobolev, semi-analytic RT framework for metal absorption lines that models both down-the-barrel galaxy spectra and off-sightline absorption (e.g., EW vs. impact parameter) to probe the structure and kinematics of multiphase outflows (<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.529..444L/abstract">Li et al. 2024</a>).
+					</p>
+				</li>
+				<li>
+					<strong>Spatially Resolved Lyα Halo Modeling</strong><br />
+					In <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.502.2389L/abstract">Li et al. (2021)</a>,
+					<a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.3414L/abstract">Li et al. (2022)</a>, and
+					<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...953..118E/abstract">Erb et al. (2023)</a>, I modeled spatially resolved Lyα spectra in extended halos using RT simulations
+					and KCWI observations. These studies showed how variations in Lyα line profiles across halos arise from
+					scattering in multiphase gas with both outflowing and inflowing components, supporting a "central
+					powering + scattering" origin of Lyα halos.
+					<br />
+					<img src="images/erb23.pdf.png" alt="Spatially resolved Lyalpha escape schematic" class="research-figure" style="width:500px;max-width:500px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Schematic showing Lyα photon escape from a clumpy multiphase CGM at different impact parameters, illustrating that photons escaping at larger impact parameters encounter lower H I column densities due to decreasing clump covering fraction at large radii and experience smaller projected outflow velocities along their paths (<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...953..118E/abstract">Erb et al. 2023</a>).
+					</p>
+				</li>
+				<li>
+					<strong>Lyα Radiative Transfer in Clumpy Multiphase Media</strong><br />
+					In <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.5034L/abstract">Li &amp; Gronke (2022)</a>, I investigated how Lyα spectra emerging from clumpy multiphase media relate to
+					commonly used shell-model fits. By performing RT calculations in physically
+					motivated CGM geometries, this work clarified why simple shell models often reproduce observed Lyα
+					spectra and how their parameters relate to the underlying gas structure and kinematics.
+					<br />
+					<img src="images/Schematic_shell_clumpy.pdf.png" alt="Shell model versus clumpy CGM schematic" class="research-figure" style="width:620px;max-width:620px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Schematic comparing the Lyα shell model with multiphase clumpy CGM models, emphasizing that shell-model parameters inferred from spectral fitting should be interpreted as effective representations of radiative transfer in a realistic clumpy medium rather than literal physical quantities (<a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.5034L/abstract">Li &amp; Gronke 2022</a>).
+					</p>
+				</li>
+				<li>
+					<strong>Cool Cloud Survival in the Circumgalactic Medium</strong><br />
+					In <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1841L/abstract">Li et al. (2020)</a>, I performed a large suite of hydrodynamic simulations of cool clouds interacting
+					with hot halo gas and identified distinct cloud-evolution regimes. The work established scaling
+					relations for cloud survival times and clarified the conditions under which cool CGM structures can
+					persist in galactic halos.
+					<br />
+					<img src="images/Diff_Physics.png" alt="Density slices of cool cloud simulations" class="research-figure" style="width:760px;max-width:760px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Density slices from simulations of a cool cloud moving through a hot wind, showing how radiative cooling, magnetic fields, thermal conduction, viscosity, and self-shielding influence the evolution and survival of multiphase CGM clouds (<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1841L/abstract">Li et al. 2020</a>).
+					</p>
+				</li>
+				<li>
+					<strong>Interstellar Medium Evolution in Post-Starburst Galaxies</strong><br />
+					In <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...879..131L/abstract">Li et al. (2019)</a>, I investigated how the dust and molecular gas content of post-starburst galaxies
+					evolve after the shutdown of intense star formation. Using multiwavelength observations of 58 systems,
+					the study showed that both dust and molecular gas decline over time while star formation decreases even
+					more rapidly, indicating that quenching is associated with a reduction in star-forming efficiency rather
+					than simply the removal of gas.
+					<br />
+					<img src="images/PSB.pdf.png" alt="Specific dust mass versus post-burst age" class="research-figure" style="width:540px;max-width:540px;height:auto;display:block;margin:0.9rem auto 0;" />
+					<p class="research-caption">
+						Specific dust mass versus post-burst age for post-starburst galaxies, showing a clear decline in dust content over time and implying a dust depletion timescale of ≈200 Myr, comparable to the molecular gas depletion timescale (<a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...879..131L/abstract">Li et al. 2019</a>).
+					</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>&copy; 2026 Zhihui Li</p>
+		</div>
+	</footer>
+</body>
+</html>
